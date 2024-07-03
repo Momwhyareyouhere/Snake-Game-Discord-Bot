@@ -1,1 +1,7 @@
 # Snake-Game-Discord-Bot
+
+THIS REPOSITORY IS STILL ON WORKING BUT YOU CAN USE IT
+
+INSTALLATION:
+```
+git clone 
