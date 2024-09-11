@@ -69,7 +69,6 @@ else:
     async def on_ready():
         print(f'Bot is ready. Logged in as {bot.user.name}.')
         print(f'Owner ID: {config["owner_id"]}')
-        print(f'Running projects channel ID: {config["running_projects_channel_id"]}')
         print(f'Bot is running with token: {config["bot_token"]}')
 
     @bot.command(name='snake_game')
