@@ -6,7 +6,7 @@ import os
 filename = 'config.txt'
 
 if not os.path.isfile(filename):
-    print("Please download config.txt and insert it into this folder: https://momwhyareyouhere.github.io/Snake_game_setup.github.io")
+    print("Please download config.txt and insert it into this folder: https://momwhyareyouhere.github.io/Snake_game_setup")
     exit(1)
 else:
     print(f"{filename} exists. Proceeding with the rest of the script.")
@@ -28,7 +28,7 @@ else:
     config = read_config()
 
     
-    required_keys = ['bot_token', 'owner_id', 'running_projects_channel_id']
+    required_keys = ['bot_token', 'owner_id']
     for key in required_keys:
         if key not in config or not config[key]:
             print(f"Invalid {key}. Please make sure it is set in the config file.")
