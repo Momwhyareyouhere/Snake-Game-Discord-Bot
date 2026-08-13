@@ -1,0 +1,5 @@
+config.txt
+scores.json
+.venv/
+__pycache__/
+*.pyc
