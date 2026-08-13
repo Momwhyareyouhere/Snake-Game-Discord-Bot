@@ -36,4 +36,4 @@ Place `config.txt` in the project folder before running the bot. It must contain
 
 Note: the blacklist is stored in memory and resets when the bot restarts.
 
-It will gonna be comming next updates new commands for the owner and a new system
+The snake game can sometimes be really laggy.
